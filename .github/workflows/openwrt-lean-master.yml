@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt-AC2100-1.0.0
+name: Lede OpenWrt
 
 on:
   repository_dispatch:
@@ -36,6 +36,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-20.04
+    name: 编译 lede-openwrt-rm-ac2100
 
     steps:
     - name: Checkout
