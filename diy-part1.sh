@@ -23,4 +23,3 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-a
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
 git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
 git clone https://github.com/small-5/luci-app-adblock-plus package/lean/luci-app-adblock-plus  #adblock plus+ 去广告
-git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/lean/luci-app-v2ray #v2ray
