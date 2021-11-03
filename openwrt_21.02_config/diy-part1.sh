@@ -14,7 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-#添加自定义插件链接（自己想要什么就github里面搜索然后添加）
+#添加自定义插件链接（自己想要什么就github里面搜索然后添加
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon  #新的argon主题

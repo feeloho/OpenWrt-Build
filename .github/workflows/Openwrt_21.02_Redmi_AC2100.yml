@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Openwrt_19.07_Redmi_AC2100
+name: Openwrt_21.02_Redmi_AC2100
 
 on:
   repository_dispatch:
@@ -25,11 +25,11 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: openwrt-19.07
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: openwrt_19.07_config/.config
-  DIY_P1_SH: openwrt_19.07_config/diy-part1.sh
-  DIY_P2_SH: openwrt_19.07_config/diy-part2.sh
+  CONFIG_FILE: openwrt_21.02_config/.config
+  DIY_P1_SH: openwrt_21.02_config/diy-part1.sh
+  DIY_P2_SH: openwrt_21.02_config/diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
