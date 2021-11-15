@@ -19,5 +19,5 @@
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon  #新的argon主题
-git clone https://github.com/kenzok8/openwrt-packages.git package/kenzo
+git clone https://github.com/xiaorouji/openwrt-passwall package/xiaorouji
 git clone https://github.com/kenzok8/small.git package/small
