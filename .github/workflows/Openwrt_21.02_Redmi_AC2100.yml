@@ -106,7 +106,7 @@ jobs:
       id: compile
       run: |
         cd openwrt
-        sudo mkdir -p /workdir/openwrt/staging_dir/host/bin/upx
+        sudo mkdir -p /workdir/openwrt/staging_dir/host/bin
         sudo cp -f /usr/bin/upx /workdir/openwrt/staging_dir/host/bin/upx
         echo -e "$(nproc) thread compile"
         make -j$(nproc) || make -j1 || make -j1 V=s
